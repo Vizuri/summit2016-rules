@@ -3,4 +3,5 @@
 <property name="name" value="caseworkerreview-taskform.form"/>
 <property name="displayMode" value="default"/>
 <property name="status" value="0"/>
+<dataHolder inputId="in_complete" name="#E9E371" type="basicType" outId="out_complete" value="java.lang.String" id="complet_data"/>
 </form>
