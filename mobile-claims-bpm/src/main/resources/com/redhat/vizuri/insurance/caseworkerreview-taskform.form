@@ -3,5 +3,13 @@
 <property name="name" value="caseworkerreview-taskform.form"/>
 <property name="displayMode" value="default"/>
 <property name="status" value="0"/>
+<field position="0" name="approve" type="CheckBox" id="1900013398">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;in_approve (approve)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="in_approve"/>
+<property name="outputBinding" value="out_approve"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
 <dataHolder inputId="in_approve" name="#E9E371" type="basicType" outId="out_approve" value="java.lang.Boolean" id="approve"/>
 </form>
