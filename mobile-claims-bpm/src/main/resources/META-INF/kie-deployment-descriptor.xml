@@ -34,6 +34,12 @@
             <parameters/>
             <name>Rest</name>
         </work-item-handler>
+        <work-item-handler>
+            <resolver>mvel</resolver>
+            <identifier>new org.jbpm.bpmn2.handler.ReceiveTaskHandler(ksession)</identifier>
+            <parameters/>
+            <name>Message</name>
+        </work-item-handler>
     </work-item-handlers>
     <environment-entries/>
     <configurations/>
