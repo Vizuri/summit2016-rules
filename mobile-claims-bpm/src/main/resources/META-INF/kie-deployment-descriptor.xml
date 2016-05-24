@@ -40,6 +40,12 @@
             <parameters/>
             <name>Receive Task</name>
         </work-item-handler>
+        <work-item-handler>
+            <resolver>mvel</resolver>
+            <identifier>new org.jbpm.process.instance.impl.demo.SystemOutWorkItemHandler()</identifier>
+            <parameters/>
+            <name>Manual Task</name>
+        </work-item-handler>
     </work-item-handlers>
     <environment-entries/>
     <configurations/>
