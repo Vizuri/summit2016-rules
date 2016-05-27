@@ -8,7 +8,7 @@ when
     
 then
     System.out.println("inside prioritize-assignment rule");   
-    kcontext.getKnowledgeRuntime().insert(kcontext.getProcess();
+    kcontext.getKnowledgeRuntime().insert(kcontext.getProcess() );
 end
 
 rule "prioritize-assignment-signal"
