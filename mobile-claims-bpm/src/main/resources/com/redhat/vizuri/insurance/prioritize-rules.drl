@@ -18,6 +18,6 @@ when
 
 then
     System.out.println("inside signal-assignment rule");   
-    kcontext.getKnowledgeRuntime().signalEvent("tagadjuster", null, p.getId());
+    //kcontext.getKnowledgeRuntime().signalEvent("tagadjuster", null, p.getId());
 
 end
