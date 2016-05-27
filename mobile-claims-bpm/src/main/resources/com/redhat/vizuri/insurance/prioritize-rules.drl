@@ -1,0 +1,23 @@
+package com.redhat.vizuri.insurance;
+
+import org.kie.api.runtime.process.WorkflowProcessInstance
+
+rule "prioritize-assignment"
+agenda-group "prioritize"
+when
+    
+then
+    System.out.println("inside prioritize-assignment rule");   
+   // kcontext.getKnowledgeRuntime().insert(kcontext.getProcess() );
+end
+
+rule "prioritize-assignment-signal"
+agenda-group "Gather-Information"
+when
+    p: WorkflowProcessInstance()
+
+then
+    System.out.println("inside signal-assignment rule");   
+    kcontext.getKnowledgeRuntime().signalEvent("tagadjuster", null, p.getId());
+
+end
