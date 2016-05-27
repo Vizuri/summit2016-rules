@@ -1,2 +1,9 @@
 package com.redhat.vizuri.insurance;
 
+rule "prioritize-assignment"
+agenda-group "prioritize"
+when
+
+then
+
+end
