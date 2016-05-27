@@ -5,5 +5,5 @@ agenda-group "prioritize"
 when
 
 then
-
+    System.out.println("inside prioritize-assignment rule");   
 end
