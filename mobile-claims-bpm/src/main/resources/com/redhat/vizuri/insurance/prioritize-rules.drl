@@ -12,7 +12,7 @@ then
 end
 
 rule "prioritize-assignment-signal"
-agenda-group "prioritize"
+agenda-group "Gather-Information"
 when
     p: WorkflowProcessInstance()
 
