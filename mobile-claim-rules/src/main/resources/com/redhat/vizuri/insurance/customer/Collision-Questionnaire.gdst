@@ -239,7 +239,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>AnswerType.TEXT</valueString>
+        <valueString>AnswerType.INTEGER</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -300,7 +300,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>AnswerType.TEXT</valueString>
+        <valueString>AnswerType.INTEGER</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
