@@ -1,7 +1,0 @@
-
-<form id="905564809">
-<property name="name" value="humansecond-taskform.form"/>
-<property name="displayMode" value="default"/>
-<property name="status" value="0"/>
-<dataHolder inputId="in_processRequest" name="#E9E371" type="basicType" outId="out_processRequest" value="java.lang.String" id="processRequest"/>
-</form>
