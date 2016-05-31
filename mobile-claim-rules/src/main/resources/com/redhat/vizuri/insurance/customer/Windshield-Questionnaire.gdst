@@ -389,7 +389,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>Does the crack impair the drivers vision?</valueString>
+        <valueString>Does the damage impair the drivers vision?</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
