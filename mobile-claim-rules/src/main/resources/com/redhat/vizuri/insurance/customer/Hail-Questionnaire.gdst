@@ -98,7 +98,7 @@
     </insert-fact-column52>
     <insert-fact-column52>
       <typedDefaultValue>
-        <valueNumeric class="long">1</valueNumeric>
+        <valueNumeric class="long">3</valueNumeric>
         <valueString></valueString>
         <dataType>NUMERIC_LONG</dataType>
         <isOtherwise>false</isOtherwise>
@@ -125,6 +125,21 @@
       <boundName>$q</boundName>
       <factField>enabled</factField>
       <type>Boolean</type>
+      <isInsertLogical>false</isInsertLogical>
+    </insert-fact-column52>
+    <insert-fact-column52>
+      <typedDefaultValue>
+        <valueString></valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </typedDefaultValue>
+      <hideColumn>false</hideColumn>
+      <width>198</width>
+      <header>Options</header>
+      <factType>Question</factType>
+      <boundName>$q</boundName>
+      <factField>options</factField>
+      <type>Collection</type>
       <isInsertLogical>false</isInsertLogical>
     </insert-fact-column52>
     <insert-fact-column52>
@@ -192,6 +207,7 @@
     <list>
       <value>
         <valueNumeric class="int">1</valueNumeric>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -206,27 +222,27 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>IncidentType.WINDSHIELD</valueString>
+        <valueString>IncidentType.HAIL</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>win-1</valueString>
+        <valueString>h-1</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>AnswerType.YES_NO</valueString>
+        <valueString>AnswerType.OPTION</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>Is the crack larger than a quarter?</valueString>
+        <valueString>Type of hail damage</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueNumeric class="long">1</valueNumeric>
+        <valueNumeric class="long">3</valueNumeric>
         <valueString></valueString>
         <dataType>NUMERIC_LONG</dataType>
         <isOtherwise>false</isOtherwise>
@@ -235,6 +251,11 @@
         <valueBoolean>true</valueBoolean>
         <valueString></valueString>
         <dataType>BOOLEAN</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>[&quot;Roof&quot;,&quot;Siding&quot;,&quot;Both&quot;,&quot;Other&quot;]</valueString>
+        <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
@@ -247,6 +268,7 @@
     <list>
       <value>
         <valueNumeric class="int">2</valueNumeric>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -261,27 +283,27 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>IncidentType.WINDSHIELD</valueString>
+        <valueString>IncidentType.HAIL</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>win-2</valueString>
+        <valueString>h-2</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>AnswerType.YES_NO</valueString>
+        <valueString>AnswerType.TEXT</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>Is the crack larger than a dollar bill?</valueString>
+        <valueString>Describe &apos;other&apos; damage</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueNumeric class="long">1</valueNumeric>
+        <valueNumeric class="long">3</valueNumeric>
         <valueString></valueString>
         <dataType>NUMERIC_LONG</dataType>
         <isOtherwise>false</isOtherwise>
@@ -289,6 +311,11 @@
       <value>
         <valueString></valueString>
         <dataType>BOOLEAN</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString></valueString>
+        <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
@@ -301,6 +328,7 @@
     <list>
       <value>
         <valueNumeric class="int">3</valueNumeric>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -315,27 +343,27 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>IncidentType.WINDSHIELD</valueString>
+        <valueString>IncidentType.HAIL</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>win-3</valueString>
+        <valueString>h-3</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>AnswerType.YES_NO</valueString>
+        <valueString>AnswerType.OPTION</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>Was the car in motion at the time?</valueString>
+        <valueString>Size of hail</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueNumeric class="long">1</valueNumeric>
+        <valueNumeric class="long">3</valueNumeric>
         <valueString></valueString>
         <dataType>NUMERIC_LONG</dataType>
         <isOtherwise>false</isOtherwise>
@@ -344,6 +372,11 @@
         <valueBoolean>true</valueBoolean>
         <valueString></valueString>
         <dataType>BOOLEAN</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>[&quot;Peas&quot;,&quot;Golfballs&quot;,&quot;Softballs&quot;]</valueString>
+        <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
@@ -356,6 +389,7 @@
     <list>
       <value>
         <valueNumeric class="int">4</valueNumeric>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -370,12 +404,12 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>IncidentType.WINDSHIELD</valueString>
+        <valueString>IncidentType.HAIL</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>win-4</valueString>
+        <valueString>h-4</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -385,20 +419,24 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>Does the damage impair the drivers vision?</valueString>
+        <valueString>Did you keep a sample?</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueNumeric class="long">1</valueNumeric>
+        <valueNumeric class="long">3</valueNumeric>
         <valueString></valueString>
         <dataType>NUMERIC_LONG</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueBoolean>true</valueBoolean>
         <valueString></valueString>
         <dataType>BOOLEAN</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString></valueString>
+        <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
