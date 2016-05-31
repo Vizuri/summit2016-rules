@@ -1,0 +1,22 @@
+
+<form id="1140207974">
+<property name="name" value="adjuster-review-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="1" name="complete" type="InputText" id="1353764273">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;task_complete (complete)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="task_complete"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="0" name="adjustedAmount" type="InputTextFloat" id="2107364096">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;task_adjustedAmount (adjustedAmount)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="task_adjustedAmount"/>
+<property name="fieldClass" value="java.lang.Float"/>
+</field>
+<dataHolder inputId="" name="#BBBBBB" type="basicType" outId="task_adjustedAmount" value="java.lang.Float" id="adjustedAmount"/>
+<dataHolder inputId="" name="#E9E371" type="basicType" outId="task_complete" value="java.lang.String" id="complete"/>
+</form>
