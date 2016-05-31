@@ -1,2 +1,15 @@
 package com.redhat.vizuri.insurance;
 
+import com.redhat.vizuri.insurance.Questionnaire;
+import com.redhat.vizuri.insurance.Question;
+
+
+rule "add-questions"
+    agenda-group "question-cleanup"
+when
+    $q : Questionnaire ( )
+    $question : Question ( $question.questionnaireId == $q.id, $q.questions not contains $question )
+then
+    $q.addQuestion( $question );
+    update($q);
+end;
