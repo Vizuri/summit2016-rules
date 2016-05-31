@@ -9,3 +9,12 @@ when
 then
     System.out.println("inside prioritize-assignment rule"); 
 end
+
+
+rule "check approval rule"
+agenda-group "check-approval"
+when
+
+then
+    System.err.println("inside check-approval rule");
+end
