@@ -3,44 +3,11 @@
 <property name="name" value="mobile-claims-bpm.mobile-claim-process-taskform.form"/>
 <property name="displayMode" value="default"/>
 <property name="status" value="0"/>
-<field position="0" name="adjustedAmount" type="InputTextFloat" id="1640535225">
+<field position="0" name="claimedAmount" type="InputTextFloat" id="1273251973">
 <property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;adjustedAmount (adjustedAmount)quot;"/>
-<property name="readonly" value="false"/>
-<property name="outputBinding" value="adjustedAmount"/>
-<property name="fieldClass" value="java.lang.Float"/>
-</field>
-<field position="1" name="claimStatus" type="InputText" id="493071971">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;claimStatus (claimStatus)quot;"/>
-<property name="readonly" value="false"/>
-<property name="outputBinding" value="claimStatus"/>
-<property name="fieldClass" value="java.lang.String"/>
-</field>
-<field position="2" name="complete" type="InputText" id="462988072">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;complete (complete)quot;"/>
-<property name="readonly" value="false"/>
-<property name="outputBinding" value="complete"/>
-<property name="fieldClass" value="java.lang.String"/>
-</field>
-<field position="3" name="approved" type="CheckBox" id="1147378119">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;approved (approved)quot;"/>
-<property name="readonly" value="false"/>
-<property name="outputBinding" value="approved"/>
-<property name="fieldClass" value="java.lang.Boolean"/>
-</field>
-<field position="4" name="comment" type="InputText" id="715372532">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;comment (comment)quot;"/>
-<property name="readonly" value="false"/>
-<property name="outputBinding" value="comment"/>
-<property name="fieldClass" value="java.lang.String"/>
-</field>
-<field position="5" name="claimedAmount" type="InputTextFloat" id="1273251973">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;claimedAmount (claimedAmount)quot;"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Amount Claimedquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
 <property name="outputBinding" value="claimedAmount"/>
 <property name="fieldClass" value="java.lang.Float"/>
