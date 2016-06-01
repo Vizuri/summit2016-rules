@@ -12,7 +12,7 @@
   <attributeCols>
     <attribute-column52>
       <typedDefaultValue>
-        <valueString>sync-answerssync-answers</valueString>
+        <valueString>sync-answers</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </typedDefaultValue>
@@ -190,7 +190,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>sync-answerssync-answers</valueString>
+        <valueString>sync-answers</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -240,7 +240,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>sync-answerssync-answers</valueString>
+        <valueString>sync-answers</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -290,7 +290,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>sync-answerssync-answers</valueString>
+        <valueString>sync-answers</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -340,7 +340,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>sync-answerssync-answers</valueString>
+        <valueString>sync-answers</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -390,7 +390,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>sync-answerssync-answers</valueString>
+        <valueString>sync-answers</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -440,7 +440,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>sync-answerssync-answers</valueString>
+        <valueString>sync-answers</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -490,7 +490,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>sync-answerssync-answers</valueString>
+        <valueString>sync-answers</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -540,7 +540,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>sync-answerssync-answers</valueString>
+        <valueString>sync-answers</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
