@@ -13,8 +13,12 @@
       <artifactId>mobile-claim-domain</artifactId>
       <version>0.0.1-SNAPSHOT</version>
     </dependency>
+    <dependency>
+      <groupId>org.jbpm</groupId>
+      <artifactId>jbpm-document</artifactId>
+      <version>6.4.0.Final</version>
+    </dependency>
   </dependencies>
-
   <build>
     <plugins>
       <plugin>
