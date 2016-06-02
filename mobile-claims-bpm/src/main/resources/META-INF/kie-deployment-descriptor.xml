@@ -13,7 +13,7 @@
         </marshalling-strategy>
         <marshalling-strategy>
             <resolver>reflection</resolver>
-            <identifier>org.jbpm.document.marshalling.DocumentMarshallingStrategy.DocumentMarshallingStrategy()</identifier>
+            <identifier>new org.jbpm.document.marshalling.DocumentMarshallingStrategyI()</identifier>
             <parameters/>
         </marshalling-strategy>
     </marshalling-strategies>
