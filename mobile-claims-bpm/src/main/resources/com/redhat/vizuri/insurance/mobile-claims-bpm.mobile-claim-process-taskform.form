@@ -5,7 +5,7 @@
 <property name="status" value="0"/>
 <field position="0" name="claimedAmount" type="InputTextFloat" id="1273251973">
 <property name="fieldRequired" value="false"/>
-<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Amount Claimedquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Amount Claimedquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
@@ -18,4 +18,5 @@
 <dataHolder inputId="" name="#FBB767" type="basicType" outId="claimedAmount" value="java.lang.Float" id="claimedAmount"/>
 <dataHolder inputId="" name="#B29FE4" type="basicType" outId="comment" value="java.lang.String" id="comment"/>
 <dataHolder inputId="" name="#E9E371" type="basicType" outId="complete" value="java.lang.String" id="complete"/>
+<dataHolder inputId="" name="#E9E371" type="className" outId="photos" value="org.jbpm.document.Document" id="photos"/>
 </form>
