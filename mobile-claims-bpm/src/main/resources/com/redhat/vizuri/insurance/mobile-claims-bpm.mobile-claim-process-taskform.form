@@ -22,6 +22,7 @@
 </field>
 <dataHolder inputId="" name="#BBBBBB" type="basicType" outId="adjustedAmount" value="java.lang.Float" id="adjustedAmount"/>
 <dataHolder inputId="" name="#9BCAFA" type="basicType" outId="approved" value="java.lang.Boolean" id="approved"/>
+<dataHolder inputId="" name="#E9E371" type="className" outId="claimComments" value="java.util.ArrayList" id="claimComments"/>
 <dataHolder inputId="" name="#FF54A7" type="basicType" outId="claimStatus" value="java.lang.String" id="claimStatus"/>
 <dataHolder inputId="" name="#FBB767" type="basicType" outId="claimedAmount" value="java.lang.Float" id="claimedAmount"/>
 <dataHolder inputId="" name="#B29FE4" type="basicType" outId="comment" value="java.lang.String" id="comment"/>
