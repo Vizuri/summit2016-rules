@@ -11,6 +11,11 @@
             <identifier>new org.drools.persistence.jpa.marshaller.JPAPlaceholderResolverStrategy("com.redhat.vizuri.insurance:mobile-claims-bpm:1.0-SNAPSHOT", classLoader)</identifier>
             <parameters/>
         </marshalling-strategy>
+        <marshalling-strategy>
+            <resolver>reflection</resolver>
+            <identifier>org.jbpm.document.marshalling.DocumentMarshallingStrategy.DocumentMarshallingStrategy()</identifier>
+            <parameters/>
+        </marshalling-strategy>
     </marshalling-strategies>
     <event-listeners/>
     <task-event-listeners/>
