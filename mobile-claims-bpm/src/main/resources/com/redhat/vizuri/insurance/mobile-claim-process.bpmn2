@@ -8,7 +8,7 @@
   <bpmn2:itemDefinition id="_claimedAmountItem" structureRef="Float"/>
   <bpmn2:itemDefinition id="_claimCommentsItem" structureRef="java.util.ArrayList"/>
   <bpmn2:itemDefinition id="_photoCounterItem" structureRef="Integer"/>
-  <bpmn2:itemDefinition id="_photo1Item" structureRef="org.jbpm.document.Document"/>
+  <bpmn2:itemDefinition id="_photoItem" structureRef="org.jbpm.document.Document"/>
   <bpmn2:itemDefinition id="__0D49D2CE-BE22-46FB-9B49-F2A548BBA814_TaskNameInputXItem" structureRef="String"/>
   <bpmn2:itemDefinition id="__0D49D2CE-BE22-46FB-9B49-F2A548BBA814_GroupIdInputXItem" structureRef="Object"/>
   <bpmn2:itemDefinition id="__0D49D2CE-BE22-46FB-9B49-F2A548BBA814_SkippableInputXItem" structureRef="Object"/>
@@ -33,7 +33,7 @@
     <bpmn2:property id="claimedAmount" itemSubjectRef="_claimedAmountItem"/>
     <bpmn2:property id="claimComments" itemSubjectRef="_claimCommentsItem"/>
     <bpmn2:property id="photoCounter" itemSubjectRef="_photoCounterItem"/>
-    <bpmn2:property id="photo1" itemSubjectRef="_photo1Item"/>
+    <bpmn2:property id="photo1" itemSubjectRef="_photoItem"/>
     <bpmn2:startEvent id="processStartEvent" drools:selectable="true" color:background-color="#9acd32" color:border-color="#000000" color:color="#000000" name="">
       <bpmn2:extensionElements>
         <drools:metaData name="elementname">
