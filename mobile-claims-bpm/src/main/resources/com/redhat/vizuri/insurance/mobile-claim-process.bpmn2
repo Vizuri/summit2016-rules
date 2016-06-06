@@ -7,7 +7,7 @@
   <bpmn2:itemDefinition id="_commentItem" structureRef="String"/>
   <bpmn2:itemDefinition id="_claimedAmountItem" structureRef="Float"/>
   <bpmn2:itemDefinition id="_claimCommentsItem" structureRef="java.util.ArrayList"/>
-  <bpmn2:itemDefinition id="_photoExampleItem" structureRef="org.jbpm.document.Document"/>
+  <bpmn2:itemDefinition id="_photoItem" structureRef="org.jbpm.document.Document"/>
   <bpmn2:itemDefinition id="_photo1Item" structureRef="org.jbpm.document.Document"/>
   <bpmn2:itemDefinition id="_photo2Item" structureRef="org.jbpm.document.Document"/>
   <bpmn2:itemDefinition id="_photo3Item" structureRef="org.jbpm.document.Document"/>
@@ -41,7 +41,7 @@
     <bpmn2:property id="comment" itemSubjectRef="_commentItem"/>
     <bpmn2:property id="claimedAmount" itemSubjectRef="_claimedAmountItem"/>
     <bpmn2:property id="claimComments" itemSubjectRef="_claimCommentsItem"/>
-    <bpmn2:property id="photoExample" itemSubjectRef="_photoExampleItem"/>
+    <bpmn2:property id="photo" itemSubjectRef="_photoExampleItem"/>
     <bpmn2:property id="photo1" itemSubjectRef="_photo1Item"/>
     <bpmn2:property id="photo2" itemSubjectRef="_photo2Item"/>
     <bpmn2:property id="photo3" itemSubjectRef="_photo3Item"/>
