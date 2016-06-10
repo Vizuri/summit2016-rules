@@ -3,7 +3,7 @@ package com.redhat.vizuri.insurance;
 import com.redhat.vizuri.insurance.Questionnaire;
 import com.redhat.vizuri.insurance.Question;
 
-
+// comment
 rule "add-questions"
     agenda-group "question-cleanup"
 when
