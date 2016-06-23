@@ -43,5 +43,10 @@ public class PushNotification implements java.io.Serializable
       this.message = message;
       this.sound = sound;
    }
+   
+   @Override
+   public String toString() {
+       return "{\"message\" : \"" + message + "\", \"sound\" : \"" + sound + "\"}";
+   }
 
 }
